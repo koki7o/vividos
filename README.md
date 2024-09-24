@@ -71,3 +71,29 @@ This provides users a method of verifying the image.
     ```
 
 4. Commit the `cosign.pub` file into your git repository
+
+## Installing an image based on VividOS
+
+### Fresh install from an ISO
+
+### By rebasing from an existing installation of Fedora atomic (or a derivative)
+
+If you have already installed an atomic Fedora version or something derivative such as an Universal Blue image, it is possible to switch to another image such as your custom image by just running the commands below:
+
+1. Rebase to an unsigned image to get the proper signing keys and policies installed:
+
+example image details:
+
+IMAGE_PATH=ghcr.io/koki7o/vividos
+IMAGE_TAG=latest
+rpm-ostree rebase ostree-unverified-registry:$IMAGE_PATH:$IMAGE_TAG
+systemctl reboot
+
+2. Rebase to a signed image to complete the installation:
+
+example image details:
+
+IMAGE_PATH=ghcr.io/koki7o/vividos
+IMAGE_TAG=latest
+rpm-ostree rebase ostree-image-signed:docker://$IMAGE_PATH:$IMAGE_TAG
+systemctl reboot
