@@ -14,7 +14,7 @@ Here's how to generate the ISO:
   IMAGE_REPO=ghcr.io/koki7o \
   IMAGE_NAME=vividos \
   IMAGE_TAG=latest \
-  VARIANT=Silverblue # should match the variant your image is based on
+  VARIANT=Silverblue
   ```
 
 - With ```docker```:
@@ -25,7 +25,7 @@ Here's how to generate the ISO:
   IMAGE_REPO=ghcr.io/koki7o \
   IMAGE_NAME=vividos \
   IMAGE_TAG=latest \
-  VARIANT=Silverblue # should match the variant your image is based on
+  VARIANT=Silverblue
   ```
    
 ## By rebasing from an existing installation of Fedora atomic (or a derivative)
