@@ -76,7 +76,7 @@ This provides users a method of verifying the image.
 
 ### Fresh install from an ISO
 
-You can use JasonN3’s [build-container-installer]([https://pages.github.com/](https://github.com/JasonN3/build-container-installer)) to generate an offline ISO of your image locally. See the project’s README for more information it and its configuration. This procedure only requires either ```podman``` or ```docker``` be installed.
+You can use JasonN3’s [build-container-installer](https://github.com/JasonN3/build-container-installer) to generate an offline ISO of your image locally. See the project’s README for more information it and its configuration. This procedure only requires either ```podman``` or ```docker``` be installed.
 
 Here's how to generate the ISO:
 
