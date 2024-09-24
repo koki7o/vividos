@@ -1,5 +1,3 @@
-# image-template
-
 # Purpose
 
 This repository is meant to be a template for VividOS, a custom Universal Blue fork.
