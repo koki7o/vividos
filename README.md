@@ -2,7 +2,7 @@
 
 ## Fresh install from an ISO
 
-You can use JasonN3’s [build-container-installer](https://github.com/JasonN3/build-container-installer) to generate an offline ISO of your image locally. See the project’s README for more information it and its configuration. This procedure only requires either ```podman``` or ```docker``` be installed.
+You can use JasonN3’s [build-container-installer](https://github.com/JasonN3/build-container-installer) to generate an offline ISO of the image locally. See the project’s README for more information it and its configuration. This procedure only requires either ```podman``` or ```docker``` be installed.
 
 Here's how to generate the ISO:
 
@@ -30,7 +30,7 @@ Here's how to generate the ISO:
    
 ## By rebasing from an existing installation of Fedora atomic (or a derivative)
 
-If you have already installed an atomic Fedora version or something derivative such as an Universal Blue image, it is possible to switch to another image such as your custom image by just running the commands below:
+If you have already installed an atomic Fedora version or something derivative such as an Universal Blue image, it is possible to switch to VividOS by just running the commands below:
 
 1. Rebase to an unsigned image to get the proper signing keys and policies installed:
 
