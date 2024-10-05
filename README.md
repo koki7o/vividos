@@ -1,6 +1,8 @@
-# Installing an image based on VividOS
+# VividOS - Fedora SilverBlue based distro for content creators and influencers
 
-## Fresh install from an ISO
+## How to install:
+
+### Fresh install from an ISO
 
 You can use JasonN3’s [build-container-installer](https://github.com/JasonN3/build-container-installer) to generate an offline ISO of the image locally. See the project’s README for more information it and its configuration. This procedure only requires either ```podman``` or ```docker``` be installed.
 
@@ -28,7 +30,7 @@ Here's how to generate the ISO:
   VARIANT=Silverblue
   ```
    
-## By rebasing from an existing installation of Fedora atomic (or a derivative)
+### By rebasing from an existing installation of Fedora atomic (or a derivative)
 
 If you have already installed an atomic Fedora version or something derivative such as an Universal Blue image, it is possible to switch to VividOS by just running the commands below:
 
